@@ -1,0 +1,10 @@
+[user]
+	name = okumin
+	email = mail@okumin.com
+[color]
+	ui = true
+[core]
+	autoCRLF = false
+	whitespace = trailing-space,space-before-tab
+[alias]
+	unstage = rm --cached --

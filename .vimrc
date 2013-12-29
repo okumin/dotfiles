@@ -13,6 +13,7 @@ set encoding=UTF-8
 let loaded_matchparen = 1
 set mouse=a
 set t_Co=256
+:syntax on
 colorscheme molokai
 let g:molokai_original = 1
 set noerrorbells

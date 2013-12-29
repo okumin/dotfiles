@@ -8,3 +8,5 @@
 	whitespace = trailing-space,space-before-tab
 [alias]
 	unstage = rm --cached --
+[push]
+	default = simple

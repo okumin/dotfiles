@@ -1,3 +1,5 @@
+export PATH="/usr/local/bin:$PATH"
+
 autoload colors
 colors
 PROMPT="%{${fg[yellow]}%}%~%{${reset_color}%}

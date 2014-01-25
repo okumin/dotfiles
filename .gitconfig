@@ -6,6 +6,7 @@
 [core]
 	autoCRLF = false
 	whitespace = trailing-space,space-before-tab
+	pager = less -X
 [alias]
 	unstage = rm --cached --
 [push]

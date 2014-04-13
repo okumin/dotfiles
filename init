@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ ! -e ".vim/bundle" ]; then
+    mkdir ".vim/bundle"
+fi
+git submodule init
+git submodule udpate
+vim -c ':BundleInstall!' -c ':q!' -c ':q!'
+
 for file in .*
 do
     test $file == ".git" && continue

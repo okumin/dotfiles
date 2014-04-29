@@ -8,6 +8,7 @@
 	whitespace = trailing-space,space-before-tab
 	pager = less -X
 	editor = vim
+	excludesfile = /Users/okumin/.gitignore
 [alias]
 	unstage = rm --cached --
 [push]

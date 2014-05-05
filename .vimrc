@@ -43,4 +43,5 @@ let g:neocomplcache_enable_at_startup=1
 autocmd FileType java :setlocal omnifunc=javacomplete#Complete
 
 set formatoptions=q
+set backspace=start,eol,indent
 

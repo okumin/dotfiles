@@ -36,9 +36,11 @@ Bundle 'jiangmiao/auto-pairs'
 Bundle 'kakkyz81/evervim'
 Bundle 'tomasr/molokai'
 Bundle 'derekwyatt/vim-scala'
+Bundle 'stephpy/vim-yaml'
 
 filetype plugin indent on
 let g:neocomplcache_enable_at_startup=1
+let g:syntastic_cpp_compiler_options = '-std=c++11'
 
 autocmd FileType java :setlocal omnifunc=javacomplete#Complete
 
